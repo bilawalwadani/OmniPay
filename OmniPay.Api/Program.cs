@@ -79,6 +79,32 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    // Automatically apply any pending migrations
+    dbContext.Database.Migrate();
+
+    // Seed data if empty
+    if (!dbContext.Users.Any())
+    {
+        var aliceId = Guid.NewGuid();
+        var bobId = Guid.NewGuid();
+
+        dbContext.Users.AddRange(
+            new OmniPay.Domain.Entities.User { Id = aliceId, Name = "Alice Smith", Email = "alice@example.com", PasswordHash = "hashedpassword123" },
+            new OmniPay.Domain.Entities.User { Id = bobId, Name = "Bob Jones", Email = "bob@example.com", PasswordHash = "hashedpassword123" }
+        );
+
+        dbContext.Wallets.AddRange(
+            new OmniPay.Domain.Entities.Wallet { Id = Guid.NewGuid(), UserId = aliceId, Balance = 500.00m, Currency = "USD", Status = "Active" },
+            new OmniPay.Domain.Entities.Wallet { Id = Guid.NewGuid(), UserId = bobId, Balance = 150.00m, Currency = "USD", Status = "Active" }
+        );
+
+        dbContext.SaveChanges();
+    }
+}
+
 app.UseExceptionHandler();
 if (app.Environment.IsDevelopment())
 {
