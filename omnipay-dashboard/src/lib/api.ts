@@ -1,4 +1,4 @@
-const API_URL = 'https://OmniPaybilawal.azurewebsites.net/api';
+const API_URL = 'https://omnipaybilawal-f2b3aehkgggjcjhx.southeastasia-01.azurewebsites.net/api';
 export interface WalletUserLookupDto {
   walletId: string;
   name: string;
