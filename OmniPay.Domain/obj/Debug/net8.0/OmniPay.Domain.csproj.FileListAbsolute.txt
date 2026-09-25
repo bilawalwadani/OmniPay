@@ -1,0 +1,11 @@
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\bin\Debug\net8.0\OmniPay.Domain.deps.json
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\bin\Debug\net8.0\OmniPay.Domain.dll
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\bin\Debug\net8.0\OmniPay.Domain.pdb
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.AssemblyInfoInputs.cache
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.AssemblyInfo.cs
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.dll
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\refint\OmniPay.Domain.dll
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\OmniPay.Domain.pdb
+C:\Users\Thinkpad\Documents\learningtps\OmniPay.Domain\obj\Debug\net8.0\ref\OmniPay.Domain.dll

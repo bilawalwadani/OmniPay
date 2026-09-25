@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7QFD+TjMixOhqGzHqGM4x/Td5gpXhJL9j5/rxhC5zKc=",
+  "Source": "OmniPay.Api",
+  "BasePath": "_content/OmniPay.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

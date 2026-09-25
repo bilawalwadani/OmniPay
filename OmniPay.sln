@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniPay.Domain", "OmniPay.Domain\OmniPay.Domain.csproj", "{C04D5E33-6973-42D9-B434-960AA40DCDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniPay.Application", "OmniPay.Application\OmniPay.Application.csproj", "{1DCEA1D9-EF44-4720-A57F-84F15C23CC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniPay.Infrastructure", "OmniPay.Infrastructure\OmniPay.Infrastructure.csproj", "{90B19768-D3C2-4ED1-852E-FBDEC0BEE1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniPay.Api", "OmniPay.Api\OmniPay.Api.csproj", "{4931C1D5-2E70-402A-BE61-E5F974A4C361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniPay.Application.Tests", "OmniPay.Application.Tests\OmniPay.Application.Tests.csproj", "{9BC7E9CB-D1BE-4D89-9D8F-2A9FC79F2607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04D5E33-6973-42D9-B434-960AA40DCDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04D5E33-6973-42D9-B434-960AA40DCDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04D5E33-6973-42D9-B434-960AA40DCDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04D5E33-6973-42D9-B434-960AA40DCDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCEA1D9-EF44-4720-A57F-84F15C23CC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCEA1D9-EF44-4720-A57F-84F15C23CC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCEA1D9-EF44-4720-A57F-84F15C23CC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCEA1D9-EF44-4720-A57F-84F15C23CC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B19768-D3C2-4ED1-852E-FBDEC0BEE1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B19768-D3C2-4ED1-852E-FBDEC0BEE1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B19768-D3C2-4ED1-852E-FBDEC0BEE1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B19768-D3C2-4ED1-852E-FBDEC0BEE1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4931C1D5-2E70-402A-BE61-E5F974A4C361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4931C1D5-2E70-402A-BE61-E5F974A4C361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4931C1D5-2E70-402A-BE61-E5F974A4C361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4931C1D5-2E70-402A-BE61-E5F974A4C361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC7E9CB-D1BE-4D89-9D8F-2A9FC79F2607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC7E9CB-D1BE-4D89-9D8F-2A9FC79F2607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC7E9CB-D1BE-4D89-9D8F-2A9FC79F2607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC7E9CB-D1BE-4D89-9D8F-2A9FC79F2607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
