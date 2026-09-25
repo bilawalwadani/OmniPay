@@ -1,5 +1,4 @@
-const API_URL = 'http://localhost:5092/api';
-
+const API_URL = 'https://OmniPaybilawal.azurewebsites.net/api';
 export interface WalletUserLookupDto {
   walletId: string;
   name: string;
